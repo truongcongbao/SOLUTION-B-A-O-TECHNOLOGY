@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLUTION B A O - Giải Pháp Công Nghệ & Quản Lý Bán Hàng</title>
+    <meta
+      name="description"
+      content="Giải pháp máy chấm công, máy in hóa đơn, máy quét mã vạch và thiết bị bán hàng với giao diện Frosted Glass tối giản, hiện đại và cố vấn tư vấn AI thông minh."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SOLUTION B A O - Giải Pháp Công Nghệ & Quản Lý Bán Hàng" />
+    <meta
+      property="og:description"
+      content="Giải pháp máy chấm công, máy in hóa đơn, máy quét mã vạch và thiết bị bán hàng với giao diện Frosted Glass tối giản, hiện đại và cố vấn tư vấn AI thông minh."
+    />
+    <meta property="og:site_name" content="SOLUTION B A O" />
+    <meta property="og:url" content="https://solutionbao.vn/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SOLUTION B A O - Giải Pháp Công Nghệ & Quản Lý Bán Hàng" />
+    <meta
+      name="twitter:description"
+      content="Giải pháp máy chấm công, máy in hóa đơn, máy quét mã vạch và thiết bị bán hàng chính hãng tại TP.HCM."
+    />
+    <link rel="canonical" href="https://solutionbao.vn/" />
+
+    <!-- Mã Xác Minh Google Search Console (Google Site Verification) -->
+    <meta name="google-site-verification" id="google-site-verification-meta" content="" />
+
+    <!-- Immediate bootstrap for Google Search Console & GA4 from localStorage -->
+    <script>
+      (function() {
+        try {
+          var savedGsc = localStorage.getItem('solutionbao_gsc_verification');
+          if (savedGsc) {
+            var cleanGsc = savedGsc.indexOf('content=') > -1 
+              ? (savedGsc.match(/content=["']([^"']+)["']/i) || [null, savedGsc])[1]
+              : savedGsc.replace(/<[^>]+>/g, '').trim();
+            var meta = document.getElementById('google-site-verification-meta');
+            if (meta) meta.setAttribute('content', cleanGsc);
+          }
+          var savedGa = localStorage.getItem('solutionbao_ga4_id');
+          if (savedGa && savedGa.trim().indexOf('G-') === 0) {
+            var gaId = savedGa.trim();
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(gaId);
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ dataLayer.push(arguments); }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', gaId, { send_page_view: true });
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

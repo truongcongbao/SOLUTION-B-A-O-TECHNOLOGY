@@ -1,0 +1,6 @@
+{
+  "name": "SOLUTION B A O",
+  "description": "Giải pháp máy chấm công, máy in hóa đơn, máy quét mã vạch và thiết bị bán hàng với giao diện Frosted Glass tối giản, hiện đại và cố vấn tư vấn AI thông minh.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
